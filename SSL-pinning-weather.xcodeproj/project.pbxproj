@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436BE039299E266700D51E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE038299E266700D51E8A /* AppDelegate.swift */; };
+		436BE03B299E266700D51E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE03A299E266700D51E8A /* SceneDelegate.swift */; };
+		436BE03D299E266700D51E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE03C299E266700D51E8A /* ViewController.swift */; };
+		436BE040299E266700D51E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436BE03E299E266700D51E8A /* Main.storyboard */; };
+		436BE042299E266800D51E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436BE041299E266800D51E8A /* Assets.xcassets */; };
+		436BE045299E266800D51E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436BE043299E266800D51E8A /* LaunchScreen.storyboard */; };
+		436BE050299E266800D51E8A /* SSL_pinning_weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE04F299E266800D51E8A /* SSL_pinning_weatherTests.swift */; };
+		436BE05A299E266800D51E8A /* SSL_pinning_weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE059299E266800D51E8A /* SSL_pinning_weatherUITests.swift */; };
+		436BE05C299E266800D51E8A /* SSL_pinning_weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE05B299E266800D51E8A /* SSL_pinning_weatherUITestsLaunchTests.swift */; };
+		436BE069299E267C00D51E8A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE068299E267C00D51E8A /* NetworkManager.swift */; };
+		436BE06B299E290A00D51E8A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE06A299E290A00D51E8A /* Weather.swift */; };
+		436BE06D299E2E6200D51E8A /* Pinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE06C299E2E6200D51E8A /* Pinning.swift */; };
+		436BE06F299E33AA00D51E8A /* *.openweathermap.org.cer in Resources */ = {isa = PBXBuildFile; fileRef = 436BE06E299E33AA00D51E8A /* *.openweathermap.org.cer */; };
+		436BE071299E394600D51E8A /* HASHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE070299E394600D51E8A /* HASHUtility.swift */; };
+		436BE073299E3E4500D51E8A /* *.google.co.in.cer in Resources */ = {isa = PBXBuildFile; fileRef = 436BE072299E3E4500D51E8A /* *.google.co.in.cer */; };
+		436BE079299E404300D51E8A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BE078299E404300D51E8A /* Configuration.swift */; };
+		43F3571629A90FCD0061F9AE /* server_cer.cer in Resources */ = {isa = PBXBuildFile; fileRef = 43F3571529A90FCD0061F9AE /* server_cer.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436BE04C299E266800D51E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436BE02D299E266700D51E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436BE034299E266700D51E8A;
+			remoteInfo = "SSL-pinning-weather";
+		};
+		436BE056299E266800D51E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436BE02D299E266700D51E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436BE034299E266700D51E8A;
+			remoteInfo = "SSL-pinning-weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		436BE035299E266700D51E8A /* SSL-pinning-weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSL-pinning-weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BE038299E266700D51E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		436BE03A299E266700D51E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		436BE03C299E266700D51E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		436BE03F299E266700D51E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436BE041299E266800D51E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436BE044299E266800D51E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436BE046299E266800D51E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436BE04B299E266800D51E8A /* SSL-pinning-weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSL-pinning-weatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BE04F299E266800D51E8A /* SSL_pinning_weatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSL_pinning_weatherTests.swift; sourceTree = "<group>"; };
+		436BE055299E266800D51E8A /* SSL-pinning-weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSL-pinning-weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BE059299E266800D51E8A /* SSL_pinning_weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSL_pinning_weatherUITests.swift; sourceTree = "<group>"; };
+		436BE05B299E266800D51E8A /* SSL_pinning_weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSL_pinning_weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		436BE068299E267C00D51E8A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		436BE06A299E290A00D51E8A /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		436BE06C299E2E6200D51E8A /* Pinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinning.swift; sourceTree = "<group>"; };
+		436BE06E299E33AA00D51E8A /* *.openweathermap.org.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.openweathermap.org.cer"; sourceTree = "<group>"; };
+		436BE070299E394600D51E8A /* HASHUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HASHUtility.swift; sourceTree = "<group>"; };
+		436BE072299E3E4500D51E8A /* *.google.co.in.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.google.co.in.cer"; sourceTree = "<group>"; };
+		436BE078299E404300D51E8A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		43F3571529A90FCD0061F9AE /* server_cer.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = server_cer.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436BE032299E266700D51E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE048299E266800D51E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE052299E266800D51E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436BE02C299E266700D51E8A = {
+			isa = PBXGroup;
+			children = (
+				436BE037299E266700D51E8A /* SSL-pinning-weather */,
+				436BE04E299E266800D51E8A /* SSL-pinning-weatherTests */,
+				436BE058299E266800D51E8A /* SSL-pinning-weatherUITests */,
+				436BE036299E266700D51E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436BE036299E266700D51E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436BE035299E266700D51E8A /* SSL-pinning-weather.app */,
+				436BE04B299E266800D51E8A /* SSL-pinning-weatherTests.xctest */,
+				436BE055299E266800D51E8A /* SSL-pinning-weatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436BE037299E266700D51E8A /* SSL-pinning-weather */ = {
+			isa = PBXGroup;
+			children = (
+				436BE074299E3FB100D51E8A /* Certificates */,
+				436BE075299E3FC600D51E8A /* Networking */,
+				436BE077299E3FE400D51E8A /* Model */,
+				436BE076299E3FD900D51E8A /* Utility */,
+				436BE038299E266700D51E8A /* AppDelegate.swift */,
+				436BE03A299E266700D51E8A /* SceneDelegate.swift */,
+				436BE03C299E266700D51E8A /* ViewController.swift */,
+				436BE03E299E266700D51E8A /* Main.storyboard */,
+				436BE041299E266800D51E8A /* Assets.xcassets */,
+				436BE043299E266800D51E8A /* LaunchScreen.storyboard */,
+				436BE046299E266800D51E8A /* Info.plist */,
+			);
+			path = "SSL-pinning-weather";
+			sourceTree = "<group>";
+		};
+		436BE04E299E266800D51E8A /* SSL-pinning-weatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				436BE04F299E266800D51E8A /* SSL_pinning_weatherTests.swift */,
+			);
+			path = "SSL-pinning-weatherTests";
+			sourceTree = "<group>";
+		};
+		436BE058299E266800D51E8A /* SSL-pinning-weatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				436BE059299E266800D51E8A /* SSL_pinning_weatherUITests.swift */,
+				436BE05B299E266800D51E8A /* SSL_pinning_weatherUITestsLaunchTests.swift */,
+			);
+			path = "SSL-pinning-weatherUITests";
+			sourceTree = "<group>";
+		};
+		436BE074299E3FB100D51E8A /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				43F3571529A90FCD0061F9AE /* server_cer.cer */,
+				436BE072299E3E4500D51E8A /* *.google.co.in.cer */,
+				436BE06E299E33AA00D51E8A /* *.openweathermap.org.cer */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
+		436BE075299E3FC600D51E8A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				436BE078299E404300D51E8A /* Configuration.swift */,
+				436BE06C299E2E6200D51E8A /* Pinning.swift */,
+				436BE068299E267C00D51E8A /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		436BE076299E3FD900D51E8A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				436BE070299E394600D51E8A /* HASHUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		436BE077299E3FE400D51E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				436BE06A299E290A00D51E8A /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436BE034299E266700D51E8A /* SSL-pinning-weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436BE05F299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weather" */;
+			buildPhases = (
+				436BE031299E266700D51E8A /* Sources */,
+				436BE032299E266700D51E8A /* Frameworks */,
+				436BE033299E266700D51E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSL-pinning-weather";
+			productName = "SSL-pinning-weather";
+			productReference = 436BE035299E266700D51E8A /* SSL-pinning-weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436BE04A299E266800D51E8A /* SSL-pinning-weatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436BE062299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weatherTests" */;
+			buildPhases = (
+				436BE047299E266800D51E8A /* Sources */,
+				436BE048299E266800D51E8A /* Frameworks */,
+				436BE049299E266800D51E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436BE04D299E266800D51E8A /* PBXTargetDependency */,
+			);
+			name = "SSL-pinning-weatherTests";
+			productName = "SSL-pinning-weatherTests";
+			productReference = 436BE04B299E266800D51E8A /* SSL-pinning-weatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		436BE054299E266800D51E8A /* SSL-pinning-weatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436BE065299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weatherUITests" */;
+			buildPhases = (
+				436BE051299E266800D51E8A /* Sources */,
+				436BE052299E266800D51E8A /* Frameworks */,
+				436BE053299E266800D51E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436BE057299E266800D51E8A /* PBXTargetDependency */,
+			);
+			name = "SSL-pinning-weatherUITests";
+			productName = "SSL-pinning-weatherUITests";
+			productReference = 436BE055299E266800D51E8A /* SSL-pinning-weatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436BE02D299E266700D51E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					436BE034299E266700D51E8A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					436BE04A299E266800D51E8A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 436BE034299E266700D51E8A;
+					};
+					436BE054299E266800D51E8A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 436BE034299E266700D51E8A;
+					};
+				};
+			};
+			buildConfigurationList = 436BE030299E266700D51E8A /* Build configuration list for PBXProject "SSL-pinning-weather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436BE02C299E266700D51E8A;
+			productRefGroup = 436BE036299E266700D51E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436BE034299E266700D51E8A /* SSL-pinning-weather */,
+				436BE04A299E266800D51E8A /* SSL-pinning-weatherTests */,
+				436BE054299E266800D51E8A /* SSL-pinning-weatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436BE033299E266700D51E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3571629A90FCD0061F9AE /* server_cer.cer in Resources */,
+				436BE045299E266800D51E8A /* LaunchScreen.storyboard in Resources */,
+				436BE042299E266800D51E8A /* Assets.xcassets in Resources */,
+				436BE073299E3E4500D51E8A /* *.google.co.in.cer in Resources */,
+				436BE06F299E33AA00D51E8A /* *.openweathermap.org.cer in Resources */,
+				436BE040299E266700D51E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE049299E266800D51E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE053299E266800D51E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436BE031299E266700D51E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436BE071299E394600D51E8A /* HASHUtility.swift in Sources */,
+				436BE069299E267C00D51E8A /* NetworkManager.swift in Sources */,
+				436BE06D299E2E6200D51E8A /* Pinning.swift in Sources */,
+				436BE03D299E266700D51E8A /* ViewController.swift in Sources */,
+				436BE039299E266700D51E8A /* AppDelegate.swift in Sources */,
+				436BE03B299E266700D51E8A /* SceneDelegate.swift in Sources */,
+				436BE079299E404300D51E8A /* Configuration.swift in Sources */,
+				436BE06B299E290A00D51E8A /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE047299E266800D51E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436BE050299E266800D51E8A /* SSL_pinning_weatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436BE051299E266800D51E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436BE05C299E266800D51E8A /* SSL_pinning_weatherUITestsLaunchTests.swift in Sources */,
+				436BE05A299E266800D51E8A /* SSL_pinning_weatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436BE04D299E266800D51E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436BE034299E266700D51E8A /* SSL-pinning-weather */;
+			targetProxy = 436BE04C299E266800D51E8A /* PBXContainerItemProxy */;
+		};
+		436BE057299E266800D51E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436BE034299E266700D51E8A /* SSL-pinning-weather */;
+			targetProxy = 436BE056299E266800D51E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436BE03E299E266700D51E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436BE03F299E266700D51E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436BE043299E266800D51E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436BE044299E266800D51E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436BE05D299E266800D51E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		436BE05E299E266800D51E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436BE060299E266800D51E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSL-pinning-weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		436BE061299E266800D51E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSL-pinning-weather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		436BE063299E266800D51E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSL-pinning-weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSL-pinning-weather";
+			};
+			name = Debug;
+		};
+		436BE064299E266800D51E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSL-pinning-weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSL-pinning-weather";
+			};
+			name = Release;
+		};
+		436BE066299E266800D51E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SSL-pinning-weather";
+			};
+			name = Debug;
+		};
+		436BE067299E266800D51E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6859F3C8L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohitragmahale.SSL-pinning-weatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SSL-pinning-weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436BE030299E266700D51E8A /* Build configuration list for PBXProject "SSL-pinning-weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436BE05D299E266800D51E8A /* Debug */,
+				436BE05E299E266800D51E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436BE05F299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436BE060299E266800D51E8A /* Debug */,
+				436BE061299E266800D51E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436BE062299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436BE063299E266800D51E8A /* Debug */,
+				436BE064299E266800D51E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436BE065299E266800D51E8A /* Build configuration list for PBXNativeTarget "SSL-pinning-weatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436BE066299E266800D51E8A /* Debug */,
+				436BE067299E266800D51E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 436BE02D299E266700D51E8A /* Project object */;
+}
